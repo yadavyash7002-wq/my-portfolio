@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <meta
+    name="description"
+    content="Yash Kumar — Web Developer, Automation Builder and C++ Learner."
+  />
+
+  <meta name="theme-color" content="#050807" />
+
+  <title>Yash Kumar — Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- =========================
+       BACKGROUND
+  ========================== -->
+
+  <div class="noise"></div>
+
+  <div class="background-orbit orbit-one"></div>
+  <div class="background-orbit orbit-two"></div>
+
+  <!-- =========================
+       NAVBAR
+  ========================== -->
+
+  <header class="navbar">
+
+    <a href="#home" class="brand">
+      YK<span>.</span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#journey">Journey</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button
+      class="menu-toggle"
+      id="menuToggle"
+      aria-label="Open menu"
+      aria-expanded="false"
+    >
+      <span></span>
+      <span></span>
+    </button>
+
+  </header>
+
+  <!-- =========================
+       MOBILE MENU
+  ========================== -->
+
+  <div class="mobile-menu" id="mobileMenu">
+
+    <div class="mobile-menu-inner">
+
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#journey">Journey</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+
+    </div>
+
+  </div>
+
+  <main>
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <section id="home" class="hero section-padding">
+
+      <div class="hero-grid">
+
+        <div class="hero-left reveal">
+
+          <p class="eyebrow">
+            <span class="status-dot"></span>
+            AVAILABLE FOR BUILDING
+          </p>
+
+          <button
+            class="hero-name"
+            id="heroName"
+            aria-label="Animate name"
+          >
+            <span>YASH</span>
+            <span>KUMAR</span>
+          </button>
+
+          <h1>
+            Web Developer
+            <span class="accent">.</span>
+            <br />
+            Automation Builder
+            <span class="accent">.</span>
+          </h1>
+
+          <p class="hero-description">
+            I build clean web experiences, practical automation workflows,
+            and continuously strengthen my programming fundamentals.
+          </p>
+
+          <div class="hero-actions">
+
+            <a href="#projects" class="btn btn-primary">
+              View Projects
+              <span>↗</span>
+            </a>
+
+            <a href="#contact" class="btn btn-secondary">
+              Contact Me
+            </a>
+
+          </div>
+
+          <div class="hero-meta">
+
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Make.com</span>
+            <span>C++ / Learning</span>
+
+          </div>
+
+        </div>
+
+        <div class="hero-right reveal">
+
+          <div class="photo-frame">
+
+            <div class="photo-glow"></div>
+
+            <div class="photo-container">
+
+              <img
+                src="assets/profile.jpg"
+                alt="Yash Kumar"
+                class="profile-photo"
+                id="profileImage"
+                onerror="this.style.display='none'; document.getElementById('photoPlaceholder').style.display='flex';"
+              />
+
+              <div
+                class="photo-placeholder"
+                id="photoPlaceholder"
+              >
+                <span>YK</span>
+                <small>Add assets/profile.jpg</small>
+              </div>
+
+            </div>
+
+            <div class="photo-label">
+              <span>YK / 2026</span>
+              <span>01</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="hero-scroll">
+        <span>SCROLL TO EXPLORE</span>
+        <div class="scroll-line"></div>
+      </div>
+
+    </section>
+
+    <!-- =========================
+         ABOUT
+    ========================== -->
+
+    <section id="about" class="content-section section-padding">
+
+      <div class="section-heading reveal">
+
+        <p class="eyebrow">
+          01 / ABOUT
+        </p>
+
+        <h2>
+          Building.
+          <br />
+          Learning.
+          <br />
+          <em>Improving.</em>
+        </h2>
+
+      </div>
+
+      <div class="about-content reveal">
+
+        <p class="large-copy">
+          I'm focused on creating useful web projects and automation
+          workflows while building strong programming fundamentals.
+        </p>
+
+        <p class="small-copy">
+          My current toolkit includes HTML, CSS, JavaScript and Make.com.
+          I'm also learning C++ and gradually expanding my development
+          capabilities through practical projects.
+        </p>
+
+        <div class="about-line"></div>
+
+        <div class="about-stats">
+
+          <div>
+            <strong>01</strong>
+            <span>Developer</span>
+          </div>
+
+          <div>
+            <strong>01</strong>
+            <span>Automation Builder</span>
+          </div>
+
+          <div>
+            <strong>01</strong>
+            <span>C++ Learner</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- =========================
+         JOURNEY
+    ========================== -->
+
+    <section id="journey" class="content-section section-padding">
+
+      <div class="section-heading reveal">
+
+        <p class="eyebrow">
+          02 / JOURNEY
+        </p>
+
+        <h2>
+          The path
+          <br />
+          <em>so far.</em>
+        </h2>
+
+      </div>
+
+      <div class="timeline reveal">
+
+        <div class="timeline-item">
+
+          <div class="timeline-number">
+            01
+          </div>
+
+          <div class="timeline-content">
+
+            <span class="timeline-year">
+              2026 — PRESENT
+            </span>
+
+            <h3>
+              BCA + Development
+            </h3>
+
+            <p>
+              Studying BCA while developing practical web projects and
+              strengthening programming fundamentals.
+            </p>
+
+          </div>
+
+        </div>
+
+        <div class="timeline-item">
+
+          <div class="timeline-number">
+            02
+          </div>
+
+          <div class="timeline-content">
+
+            <span class="timeline-year">
+              CURRENT
+            </span>
+
+            <h3>
+              C++ Learning
+            </h3>
+
+            <p>
+              Learning C++ fundamentals with a long-term focus on
+              programming and DSA.
+            </p>
+
+          </div>
+
+        </div>
+
+        <div class="timeline-item">
+
+          <div class="timeline-number">
+            03
+          </div>
+
+          <div class="timeline-content">
+
+            <span class="timeline-year">
+              BUILDING
+            </span>
+
+            <h3>
+              Automation
+            </h3>
+
+            <p>
+              Creating practical workflow automations using Make.com
+              and connecting different services into useful systems.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- =========================
+         SKILLS
+    ========================== -->
+
+    <section id="skills" class="content-section section-padding">
+
+      <div class="section-heading reveal">
+
+        <p class="eyebrow">
+          03 / SKILLS
+        </p>
+
+        <h2>
+          Tools I
+          <br />
+          <em>actually use.</em>
+        </h2>
+
+      </div>
+
+      <div class="skills-grid reveal" id="skillsGrid">
+        <!-- JS inserts skills -->
+      </div>
+
+    </section>
+
+    <!-- =========================
+         PROJECTS
+    ========================== -->
+
+    <section id="projects" class="content-section section-padding">
+
+      <div class="section-heading reveal">
+
+        <p class="eyebrow">
+          04 / PROJECTS
+        </p>
+
+        <h2>
+          Things I've
+          <br />
+          <em>built.</em>
+        </h2>
+
+      </div>
+
+      <div class="projects-list reveal" id="projectsList">
+        <!-- JS inserts projects -->
+      </div>
+
+    </section>
+
+    <!-- =========================
+         CONTACT
+    ========================== -->
+
+    <section id="contact" class="contact-section section-padding">
+
+      <div class="contact-inner reveal">
+
+        <p class="eyebrow">
+          05 / CONTACT
+        </p>
+
+        <h2>
+          Let's build
+          <br />
+          something
+          <br />
+          <em>useful.</em>
+        </h2>
+
+        <p class="contact-description">
+          Have a project, idea or collaboration in mind?
+          Send me a message.
+        </p>
+
+        <a
+          href="mailto:YOUR_EMAIL@example.com"
+          class="email-link"
+          id="emailLink"
+        >
+          YOUR_EMAIL@example.com
+          <span>↗</span>
+        </a>
+
+        <div class="social-links">
+
+          <a
+            href="https://github.com/yadavyash7002-wq"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub ↗
+          </a>
+
+          <a
+            href="https://www.linkedin.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn ↗
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
+
+  <footer class="footer">
+
+    <div>
+      © <span id="currentYear">2026</span> Yash Kumar
+    </div>
+
+    <div>
+      Built with intention.
+    </div>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+  </html>
